@@ -1,4 +1,4 @@
-import { Image, StyleSheet, Text, View } from "react-native";
+import { Alert, Image, Pressable, StyleSheet, Text } from "react-native";
 
 import { City } from "@/data/types";
 
@@ -6,8 +6,15 @@ type CityItemProps = {
   city: City;
 };
 export function CityItem({ city }: CityItemProps) {
+  function onPress() {
+    Alert.alert("on press");
+  }
+  function onLongPress() {
+    Alert.alert("on press long");
+  }
+
   return (
-    <View style={styles.card}>
+    <Pressable style={styles.card} onPress={onPress} onLongPress={onLongPress}>
       <Image
         source={city.coverImage}
         style={{ height: 280, width: "100%" }}
@@ -16,7 +23,7 @@ export function CityItem({ city }: CityItemProps) {
       />
       <Text style={styles.title}>{city.name}</Text>
       <Text style={styles.description}>{city.description}</Text>
-    </View>
+    </Pressable>
   );
 }
 
