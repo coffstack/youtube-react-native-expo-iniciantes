@@ -1,6 +1,7 @@
 import { Alert, Image, Pressable, StyleSheet, Text } from "react-native";
 
 import { City } from "@/data/types";
+import { Link } from "expo-router";
 
 type CityItemProps = {
   city: City;
@@ -14,16 +15,18 @@ export function CityItem({ city }: CityItemProps) {
   }
 
   return (
-    <Pressable style={styles.card} onPress={onPress} onLongPress={onLongPress}>
-      <Image
-        source={city.coverImage}
-        style={{ height: 280, width: "100%" }}
-        borderRadius={16}
-        // resizeMode="cover"
-      />
-      <Text style={styles.title}>{city.name}</Text>
-      <Text style={styles.description}>{city.description}</Text>
-    </Pressable>
+    <Link href={"/about"} asChild>
+      <Pressable style={styles.card}>
+        <Image
+          source={city.coverImage}
+          style={{ height: 280, width: "100%" }}
+          borderRadius={16}
+          // resizeMode="cover"
+        />
+        <Text style={styles.title}>{city.name}</Text>
+        <Text style={styles.description}>{city.description}</Text>
+      </Pressable>
+    </Link>
   );
 }
 
