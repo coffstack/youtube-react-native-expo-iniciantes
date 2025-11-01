@@ -7,6 +7,7 @@ export default function RootLayout() {
     >
       <Stack.Screen name="index" />
       <Stack.Screen name="about" />
+      <Stack.Screen name="city/[id]" />
     </Stack>
   );
 }

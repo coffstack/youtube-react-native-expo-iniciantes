@@ -15,7 +15,7 @@ export function CityItem({ city }: CityItemProps) {
   }
 
   return (
-    <Link href={"/about"} asChild>
+    <Link href={`/city/${city.id}`} asChild>
       <Pressable style={styles.card}>
         <Image
           source={city.coverImage}
