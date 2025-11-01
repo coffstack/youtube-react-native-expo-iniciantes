@@ -1,50 +1,25 @@
-# Welcome to your Expo app 👋
+# Expo para Iniciantes — Seu Primeiro App do Zero!
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+[Tutorial de React Native para iniciantes com Expo](https://youtu.be/FULK2o5TRiM) — aprenda, passo a passo, a criar seu primeiro aplicativo!
 
-## Get started
+![Cover](docs/cover.jpg)
 
-1. Install dependencies
+Neste [vídeo](https://youtu.be/FULK2o5TRiM) você vai aprender:
 
-   ```bash
-   npm install
-   ```
+- Como configurar o ambiente de desenvolvimento
+- Como usar componentes como `View`, `Text` e `Image`
+- Como trabalhar com listas (`FlatList`) e navegação com o Expo Router
 
-2. Start the app
+Ideal para quem quer começar a desenvolver apps mobile com JavaScript e React Native.
 
-   ```bash
-   npx expo start
-   ```
+#### Conheça nosso Curso Completo de React Native CLI e Expo:
 
-In the output, you'll find options to open the app in a
+[![Quero Conhecer](https://img.shields.io/badge/Quero%20Conhecer-4CAF50?style=for-the-badge&logoColor=white)](https://coffstack.com.br/profissional-react-native)
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### 👨🏻‍💻 Quem é seu Professor?
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+**Lucas Garcez** é um especialista de destaque em React Native, com **mais de 6 anos de experiência** prática no desenvolvimento de aplicativos de alto desempenho para empresas no **Brasil e no exterior**. Reconhecido por sua capacidade única de simplificar o complexo e por sua **abordagem prática e didática**, Lucas é a referência no ensino de **React Native avançado**. Atualmente, ele reside na Austrália, onde atua como **engenheiro de software sênior**, aplicando diariamente as técnicas e conceitos que ensina. Com isso, ele oferece aos seus alunos um **conhecimento diretamente alinhado às demandas do mercado global**, tornando-se um dos poucos professores qualificados a ensinar **React Native no nível que as empresas realmente exigem**.
 
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- [LinkedIn](https://www.linkedin.com/in/lucas-garcez-a5636b157/?locale=pt_BR)
+- [GitHub](https://github.com/LucasGarcez)
+- [YouTube](https://www.youtube.com/@Coffstack)
